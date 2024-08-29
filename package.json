@@ -1,7 +1,6 @@
 {
   "name": "afc",
   "private": true,
-  "homepage": "https://mct33611.github.io/AFC",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
