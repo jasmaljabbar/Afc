@@ -1,0 +1,19 @@
+.title{
+    
+    text-align: center;
+    color: #212ea0;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 70px 5px 5px 5px;
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    padding: 10px 20px; 
+    border-radius: 8px; 
+}
+.title h2{
+    font-size: 32px;
+    color: #000f38;
+    margin-top: 5px;
+    text-transform: none;
+}
