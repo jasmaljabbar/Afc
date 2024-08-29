@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const FacebookIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -41,16 +42,15 @@ const Footer = () => {
             <h3 className="text-white text-lg font-medium mb-4 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-8 after:bg-[#fdd166]">Links</h3>
             <ul className="space-y-2">
               <li><a href="/" className="text-white opacity-80 hover:opacity-100 hover:underline">Home</a></li>
-              <li><a href="/about" className="text-white opacity-80 hover:opacity-100 hover:underline">About Us</a></li>
-              <li><a href="/submit" className="text-white opacity-80 hover:opacity-100 hover:underline">Submit Photo</a></li>
+              <li><Link to="about" smooth={true} offset={0} duration={500} className="text-white opacity-80 hover:opacity-100 hover:underline">About Us</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-white text-lg font-medium mb-4 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-8 after:bg-[#fdd166]">Legal Info</h3>
             <ul className="space-y-2">
-              <li><a href="/terms" className="text-white opacity-80 hover:opacity-100 hover:underline">Terms and Conditions</a></li>
-              <li><a href="/privacy" className="text-white opacity-80 hover:opacity-100 hover:underline">Privacy Policy</a></li>
+              <li><Link to="terms" smooth={true} offset={-150} duration={500} className="text-white opacity-80 hover:opacity-100 hover:underline" >Terms and Conditions</Link></li>
+              <li><Link to="terms" smooth={true} offset={-150} duration={500} className="text-white opacity-80 hover:opacity-100 hover:underline">Privacy Policy</Link></li>
             </ul>
           </div>
           

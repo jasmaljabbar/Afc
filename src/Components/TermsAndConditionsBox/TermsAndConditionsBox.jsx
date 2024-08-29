@@ -2,7 +2,7 @@ import React from "react";
 
 const TermsAndConditionsBox = () => {
   return (
-    <div className="relative p-8 overflow-hidden">
+    <div id='terms' className="relative p-8 overflow-hidden">
       {/* Blurred background */}
       <div
         className="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-900 opacity-75 blur-xl"
